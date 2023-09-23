@@ -3,5 +3,12 @@
     "express": "^4.18.2",
     "express-pouchdb": "^4.2.0",
     "pouchdb": "^8.0.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "enable-cors": "add-cors-to-couchdb"
+  },
+  "devDependencies": {
+    "add-cors-to-couchdb": "^0.0.6"
   }
 }
